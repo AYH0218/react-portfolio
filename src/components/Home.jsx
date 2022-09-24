@@ -1,6 +1,6 @@
 import React from "react";
-import reactImage from "../Images/react.png";
 import jsImage from "../Images/js.png";
+import reactImage from "../Images/react.png";
 import etcImage from "../Images/etc.jpg";
 import profileImage from "../Images/neko.jpg";
 
@@ -9,7 +9,7 @@ const Home = () => {
     <div className="container text-center">
       <h1>Ayuha</h1>
 
-      <img src={profileImage} className="profileImage" />
+      <img src={profileImage} className="profileImage" alt="" />
 
       <p>
         HTML/CSS/JavaScript/React <br />
@@ -69,17 +69,17 @@ const Home = () => {
           <h1 class="title">スキル</h1>
           <div class="row text-center">
             <div class="col-md-4 services">
-              <img src={jsImage} />
+              <img src={jsImage} alt="" />
               <h4>HTML/CSS/JS</h4>
               <p>HTML/CSS/JavaScriptが使えます。</p>
             </div>
             <div class="col-md-4 services">
-              <img src={reactImage} />
+              <img src={reactImage} alt="" />
               <h4>React</h4>
               <p>Reactが使えます。</p>
             </div>
             <div class="col-md-4 services">
-              <img src={etcImage} />
+              <img src={etcImage} alt="" />
               <h4>テキスト</h4>
               <p>テキスト</p>
             </div>
