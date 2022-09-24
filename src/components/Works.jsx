@@ -1,9 +1,50 @@
-import React from 'react'
+import React from "react";
 
 const Works = () => {
   return (
-    <div>Works</div>
-  )
-}
+    <div className="container">
+      <h1>作品</h1>
+      <p>
+        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+      </p>
 
-export default Works
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+  );
+};
+
+export default Works;
