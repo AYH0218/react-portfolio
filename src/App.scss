@@ -55,9 +55,15 @@ nav {
 }
 
 .iconLink {
-  color: #000;
+  color: #93a5b1;
+  margin: 0 2px;
   &:hover {
-    color: #666;
+    color: #000000d1;
+  }
+  img {
+    height: 16px;
+    width: auto;
+    fill: #93a5b1;
   }
 }
 

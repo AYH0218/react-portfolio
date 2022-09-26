@@ -3,6 +3,7 @@ import jsImage from '../Images/js.png';
 import reactImage from '../Images/react.png';
 import nextjsImage from '../Images/nextjs.png';
 import profileImage from '../Images/neko.jpg';
+import zennIcon from '../Images/zenn.svg';
 
 const Home = () => {
   return (
@@ -16,22 +17,18 @@ const Home = () => {
         音楽活動、ネットワークエンジニア、Webデザイナー/エンジニア等を経て現在に至る。
       </p>
       <p>
-        <a
-          href="https://github.com/AYH0218"
-          target="_blank"
-          rel="noreferrer"
-          className="iconLink"
-        >
+        <a href="https://github.com/AYH0218" target="_blank" rel="noreferrer" className="iconLink">
           <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://zenn.dev/ayh" target="_blank" rel="noreferrer" className="iconLink">
+          <img src={zennIcon} alt="" />
         </a>
       </p>
       <section class="page-section" id="services">
         <div className="service">
           <div class="text-center">
             <h2 class="section-heading text-uppercase">PORTFOLIO</h2>
-            <h3 class="section-subheading text-muted mb-5">
-              私が携わった作品一覧です
-            </h3>
+            <h3 class="section-subheading text-muted mb-5">私が携わった作品一覧です</h3>
           </div>
           <div class="row text-center">
             <div class="col-md-4">
@@ -41,11 +38,7 @@ const Home = () => {
               </span>
               <h4 class="my-3">ECサイト</h4>
               <p class="text-muted">
-                <a
-                  href="https://www.hmv.co.jp/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="https://www.hmv.co.jp/" target="_blank" rel="noreferrer">
                   HMV&BOOKS online
                 </a>
               </p>

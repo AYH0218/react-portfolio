@@ -50,10 +50,16 @@ nav ul li a:hover {
 }
 
 .iconLink {
-  color: #000;
+  color: #93a5b1;
+  margin: 0 2px;
 }
 .iconLink:hover {
-  color: #666;
+  color: rgba(0, 0, 0, 0.8196078431);
+}
+.iconLink img {
+  height: 16px;
+  width: auto;
+  fill: #93a5b1;
 }
 
 .profileImage {
