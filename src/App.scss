@@ -54,6 +54,13 @@ nav {
   }
 }
 
+.iconLink {
+  color: #000;
+  &:hover {
+    color: #666;
+  }
+}
+
 .profileImage {
   object-fit: cover;
   height: 100px;

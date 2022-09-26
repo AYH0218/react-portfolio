@@ -1,12 +1,10 @@
-import React from "react";
+import React from 'react';
 
 const Works = () => {
   return (
     <div className="container">
       <h1>作品</h1>
-      <p>
-        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-      </p>
+      <p>A</p>
 
       <br />
       <br />
