@@ -11,12 +11,12 @@ header {
   background-color: #111;
   color: #fff;
   position: fixed;
-  height: 90px;
+  height: 80px;
   width: 100%;
   z-index: 10;
   .logo {
     h3 {
-      // font-size: 32px;
+      font-size: 32px;
       margin: 0;
       padding: 0;
       color: white;
@@ -45,6 +45,36 @@ nav {
   }
 }
 
+@media screen and (max-width: 600px) {
+  header {
+    height: 54px;
+    .logo {
+      h3 {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+        color: white;
+      }
+    }
+  }
+  nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        margin-right: 20px;
+        a {
+          font-size: 16px;
+        }
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
 .container {
   height: 100vh;
   padding: 120px;
@@ -60,10 +90,14 @@ nav {
   &:hover {
     color: #000000d1;
   }
-  img {
+  svg {
     height: 16px;
     width: auto;
     fill: #93a5b1;
+    margin-top: -2px;
+    &:hover {
+      fill: #000000d1;
+    }
   }
 }
 
@@ -83,6 +117,15 @@ img {
 .service {
   margin-top: 80px;
   margin-bottom: 60px;
+  a {
+    text-decoration: none;
+  }
+  .text-left {
+    text-align: left !important;
+  }
+  small {
+    font-size: 0.8rem;
+  }
 }
 
 #skill {

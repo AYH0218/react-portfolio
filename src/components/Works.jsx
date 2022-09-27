@@ -4,8 +4,7 @@ const Works = () => {
   return (
     <div className="container">
       <h1>作品</h1>
-      <p>A</p>
-
+      <p>編集中</p>
       <br />
       <br />
       <br />

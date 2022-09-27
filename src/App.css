@@ -11,11 +11,12 @@ header {
   background-color: #111;
   color: #fff;
   position: fixed;
-  height: 90px;
+  height: 80px;
   width: 100%;
   z-index: 10;
 }
 header .logo h3 {
+  font-size: 32px;
   margin: 0;
   padding: 0;
   color: white;
@@ -40,6 +41,31 @@ nav ul li a:hover {
   color: violet;
 }
 
+@media screen and (max-width: 600px) {
+  header {
+    height: 54px;
+  }
+  header .logo h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    margin-right: 20px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+}
 .container {
   height: 100vh;
   padding: 120px;
@@ -56,10 +82,14 @@ nav ul li a:hover {
 .iconLink:hover {
   color: rgba(0, 0, 0, 0.8196078431);
 }
-.iconLink img {
+.iconLink svg {
   height: 16px;
   width: auto;
   fill: #93a5b1;
+  margin-top: -2px;
+}
+.iconLink svg:hover {
+  fill: rgba(0, 0, 0, 0.8196078431);
 }
 
 .profileImage {
@@ -79,6 +109,15 @@ img {
 .service {
   margin-top: 80px;
   margin-bottom: 60px;
+}
+.service a {
+  text-decoration: none;
+}
+.service .text-left {
+  text-align: left !important;
+}
+.service small {
+  font-size: 0.8rem;
 }
 
 #skill img {

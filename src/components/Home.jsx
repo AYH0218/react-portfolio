@@ -3,7 +3,7 @@ import jsImage from '../Images/js.png';
 import reactImage from '../Images/react.png';
 import nextjsImage from '../Images/nextjs.png';
 import profileImage from '../Images/neko.jpg';
-import zennIcon from '../Images/zenn.svg';
+import { ReactComponent as ZennIcon } from '../Images/zenn.svg';
 
 const Home = () => {
   return (
@@ -21,64 +21,84 @@ const Home = () => {
           <i class="fa-brands fa-github"></i>
         </a>
         <a href="https://zenn.dev/ayh" target="_blank" rel="noreferrer" className="iconLink">
-          <img src={zennIcon} alt="" />
+          <ZennIcon />
         </a>
       </p>
-      <section class="page-section" id="services">
+      <section className="page-section" id="services">
         <div className="service">
-          <div class="text-center">
-            <h2 class="section-heading text-uppercase">PORTFOLIO</h2>
-            <h3 class="section-subheading text-muted mb-5">私が携わった作品一覧です</h3>
+          <div className="text-center">
+            <h2 className="section-heading text-uppercase">PORTFOLIO</h2>
+            <p className="section-subheading text-muted mb-5">私が携わった作品の一例です</p>
           </div>
-          <div class="row text-center">
-            <div class="col-md-4">
-              <span class="fa-stack fa-4x">
-                <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+          <div className="row text-center">
+            <div className="col-md-4">
+              <span className="fa-stack fa-4x">
+                <i className="fas fa-circle fa-stack-2x text-primary"></i>
+                <i className="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
               </span>
-              <h4 class="my-3">ECサイト</h4>
-              <p class="text-muted">
-                <a href="https://www.hmv.co.jp/" target="_blank" rel="noreferrer">
+              <h4 className="my-3">ECサイト</h4>
+              <p className="text-muted">
+                <a href="https://www.hmv.co.jp/" className="text-secondary" target="_blank" rel="noreferrer">
                   HMV&BOOKS online
                 </a>
               </p>
+              <p className="text-left">Webデザイン、コーディング、UI/UXの改善と実装など、全般的に携わりました。</p>
             </div>
-            <div class="col-md-4">
-              <span class="fa-stack fa-4x">
-                <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+            <div className="col-md-4">
+              <span className="fa-stack fa-4x">
+                <i className="fas fa-circle fa-stack-2x text-primary"></i>
+                <i className="fas fa-laptop fa-stack-1x fa-inverse"></i>
               </span>
-              <h4 class="my-3">レスポンシブ</h4>
-              <p class="text-muted">Text</p>
+              <h4 className="my-3">公式サイト</h4>
+              <p className="text-muted">
+                <a href="https://www.hmv.co.jp/hmvmusic/" className="text-secondary" target="_blank" rel="noreferrer">
+                  HMVmusic
+                </a>
+              </p>
+              <p className="text-left">
+                音楽配信サービスのWebサイト全体を構築しました。
+                <br />
+                <small>(サービス終了のためサイト内容縮小・停止。)</small>
+              </p>
             </div>
-            <div class="col-md-4">
-              <span class="fa-stack fa-4x">
-                <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+            <div className="col-md-4">
+              <span className="fa-stack fa-4x">
+                <i className="fas fa-circle fa-stack-2x text-primary"></i>
+                <i className="fas fa-lock fa-stack-1x fa-inverse"></i>
               </span>
-              <h4 class="my-3">ウェブ</h4>
-              <p class="text-muted">Text</p>
+              <h4 className="my-3">LP</h4>
+              <p className="text-muted">
+                <a
+                  href="https://www.hmv.co.jp/news/article/1904261024/"
+                  className="text-secondary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  天気の子特集ページ
+                </a>
+              </p>
+              <p className="text-left">画像制作、コーディング、レスポンシブ対応など。</p>
             </div>
           </div>
         </div>
       </section>
 
       <section id="skill">
-        <div class="text-center">
-          <h1 class="title">スキル</h1>
-          <div class="row text-center">
-            <div class="col-md-4 services">
+        <div className="text-center pb-5">
+          <h2 className="section-heading text-uppercase">スキル</h2>
+          <div className="row text-center">
+            <div className="col-md-4 services">
               <img src={jsImage} alt="" />
               <h4>HTML/CSS/JS</h4>
               <p>HTML/CSS/JavaScriptが使えます。</p>
             </div>
-            <div class="col-md-4 services">
+            <div className="col-md-4 services">
               <img src={reactImage} alt="" />
               <h4>React</h4>
               <p>Reactが使えます。</p>
             </div>
-            <div class="col-md-4 services">
-              <img src={nextjsImage} alt="" />
+            <div className="col-md-4 services">
+              <img src={nextjsImage} className="border" alt="" />
               <h4>Next.js</h4>
               <p>基本的な知識があります。</p>
             </div>
