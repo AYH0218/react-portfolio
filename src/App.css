@@ -4,6 +4,10 @@
   font-size: 18px;
 }
 
+html {
+  scroll-behavior: auto;
+}
+
 header {
   display: flex;
   justify-content: space-around;

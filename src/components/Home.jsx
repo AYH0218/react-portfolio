@@ -64,8 +64,9 @@ const Home = () => {
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
                 <i className="fas fa-circle fa-stack-2x text-primary"></i>
-                <i className="fas fa-lock fa-stack-1x fa-inverse"></i>
+                <i className="fas fa-solid fa-pager fa-stack-1x fa-inverse"></i>
               </span>
+              <i class="fa-solid fa-memo"></i>
               <h4 className="my-3">LP</h4>
               <p className="text-muted">
                 <a
