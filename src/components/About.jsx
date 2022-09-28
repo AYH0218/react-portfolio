@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <div className="container">
-      <h1>About</h1>
+      <h1>ABOUT</h1>
       <div className="lower-page">
         <div className="mt-4 mb-5">
           <h2 className="mb-3">経歴</h2>
@@ -20,7 +20,7 @@ const About = () => {
           <p>
             HTML、CSS、Sass、JavaScript、jQueryによるコーディング。
             <br />
-            Reactの基本的な知識。
+            Reactの基本的な知識と使用経験。
             <br />
             Next.js、TypeScriptの基礎知識。
           </p>
