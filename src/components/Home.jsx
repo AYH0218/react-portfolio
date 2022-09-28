@@ -14,7 +14,7 @@ const Home = () => {
 
       <p>
         千葉県出身。 <br />
-        音楽活動、ネットワークエンジニア、Webデザイナー/エンジニア等を経て現在に至る。
+        音楽活動、Webデザイナー/エンジニア等を経て現在に至る。
       </p>
       <p>
         <a href="https://github.com/AYH0218" target="_blank" rel="noreferrer" className="iconLink">
