@@ -144,6 +144,12 @@ nav ul li a:hover {
   width: 300px;
 }
 
+@media screen and (max-width: 991px) {
+  #skill img {
+    max-height: 220px;
+    max-width: 220px;
+  }
+}
 html {
   scroll-behavior: auto !important;
 }/*# sourceMappingURL=App.css.map */

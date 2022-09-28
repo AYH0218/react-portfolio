@@ -153,6 +153,15 @@ nav {
   }
 }
 
+@media screen and (max-width: 991px) {
+  #skill {
+    img {
+      max-height: 220px;
+      max-width: 220px;
+    }
+  }
+}
+
 html {
   scroll-behavior: auto !important;
 }
