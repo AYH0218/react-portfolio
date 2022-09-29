@@ -49,7 +49,7 @@ nav ul li a:hover {
 }
 
 .container {
-  height: 100vh;
+  min-height: 100vh;
   padding: 120px;
 }
 .container h1 {
