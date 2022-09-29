@@ -78,7 +78,7 @@ const Home = () => {
                   天気の子特集ページ
                 </a>
               </p>
-              <p className="text-left">画像制作、コーディング、レスポンシブ対応など。</p>
+              <p className="text-left">画像制作、コーディング、レスポンシブ対応など。ああああ</p>
             </div>
           </div>
         </div>
