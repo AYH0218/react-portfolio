@@ -39,12 +39,7 @@ const Home = () => {
               <i class="fa-solid fa-memo"></i>
               <h4 className="my-3">Webアプリ</h4>
               <p className="text-muted">
-                <a
-                  href="https://www.hmv.co.jp/news/article/1904261024/"
-                  className="text-secondary"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="https://react-w-weather.netlify.app/" className="text-secondary" target="_blank" rel="noreferrer">
                   World Weaher App
                 </a>
               </p>
