@@ -33,8 +33,27 @@ const Home = () => {
           <div className="row text-center">
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
-                <i className="fas fa-circle fa-stack-2x text-primary"></i>
-                <i className="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                <i className="fas fa-circle fa-stack-2x"></i>
+                <i className="fas fa-solid fa-pager fa-stack-1x icon-color"></i>
+              </span>
+              <i class="fa-solid fa-memo"></i>
+              <h4 className="my-3">Webアプリ</h4>
+              <p className="text-muted">
+                <a
+                  href="https://www.hmv.co.jp/news/article/1904261024/"
+                  className="text-secondary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  World Weaher App
+                </a>
+              </p>
+              <p className="text-left">React、TypeScriptで天気アプリを作成しました。</p>
+            </div>
+            <div className="col-md-4">
+              <span className="fa-stack fa-4x">
+                <i className="fas fa-circle fa-stack-2x"></i>
+                <i className="fas fa-shopping-cart fa-stack-1x icon-color"></i>
               </span>
               <h4 className="my-3">ECサイト</h4>
               <p className="text-muted">
@@ -46,8 +65,8 @@ const Home = () => {
             </div>
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
-                <i className="fas fa-circle fa-stack-2x text-primary"></i>
-                <i className="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                <i className="fas fa-circle fa-stack-2x"></i>
+                <i className="fas fa-laptop fa-stack-1x icon-color"></i>
               </span>
               <h4 className="my-3">公式サイト</h4>
               <p className="text-muted">
@@ -60,25 +79,6 @@ const Home = () => {
                 <br />
                 <small>(サービス終了のためサイト内容縮小・停止。)</small>
               </p>
-            </div>
-            <div className="col-md-4">
-              <span className="fa-stack fa-4x">
-                <i className="fas fa-circle fa-stack-2x text-primary"></i>
-                <i className="fas fa-solid fa-pager fa-stack-1x fa-inverse"></i>
-              </span>
-              <i class="fa-solid fa-memo"></i>
-              <h4 className="my-3">LP</h4>
-              <p className="text-muted">
-                <a
-                  href="https://www.hmv.co.jp/news/article/1904261024/"
-                  className="text-secondary"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  天気の子特集ページ
-                </a>
-              </p>
-              <p className="text-left">画像制作、コーディング、レスポンシブ対応など。</p>
             </div>
           </div>
         </div>

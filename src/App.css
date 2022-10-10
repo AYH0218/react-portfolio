@@ -121,6 +121,10 @@ nav ul li a:hover {
   fill: rgba(0, 0, 0, 0.8196078431);
 }
 
+.icon-color {
+  color: violet;
+}
+
 .service {
   margin-top: 80px;
   margin-bottom: 60px;

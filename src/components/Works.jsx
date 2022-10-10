@@ -5,8 +5,19 @@ const Works = () => {
     <div className="container">
       <h1>WORKS</h1>
       <div className="lower-page">
-        <div className="mt-4 mb-5">
-          <h2 className="mb-3">ECサイト</h2>
+        <div className="mt-4 mb-4">
+          <h2 className="mb-3">Webアプリ</h2>
+          <ul>
+            <li>
+              <a href="https://react-w-weather.netlify.app/" className="text-secondary" target="_blank" rel="noreferrer">
+                World Weather App
+              </a>
+              <p>React、TypeScriptで天気アプリを作成しました。</p>
+            </li>
+          </ul>
+        </div>
+        <div className="mt-4 mb-4">
+          <h2>ECサイト</h2>
           <ul>
             <li>
               <a href="https://www.hmv.co.jp/" className="text-secondary" target="_blank" rel="noreferrer">
