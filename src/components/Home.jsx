@@ -56,7 +56,7 @@ const Home = () => {
                   HMV&BOOKS online
                 </a>
               </p>
-              <p className="text-left">Webデザイン、コーディング、UI/UXの改善と実装など、全般的に携わりました。</p>
+              <p className="text-left">Webデザイン、コーディング、UI/UXの改善と実装など、全般的に広く携わりました。</p>
             </div>
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
@@ -72,7 +72,7 @@ const Home = () => {
               <p className="text-left">
                 音楽配信サービスのWebサイト全体を構築しました。
                 <br />
-                <small>(サービス終了のためサイト内容縮小・停止。)</small>
+                <small>(サイト内容縮小・停止中。)</small>
               </p>
             </div>
           </div>

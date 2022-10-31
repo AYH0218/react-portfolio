@@ -14,6 +14,16 @@ const Works = () => {
               </a>
               <p>React、TypeScriptで天気アプリを作成しました。</p>
             </li>
+            <li>
+              <a href="https://react-c-tracker.netlify.app/" className="text-secondary" target="_blank" rel="noreferrer">
+                Covid Tracker App
+              </a>
+              <p>
+                Reactで感染者数取得アプリを作成しました。
+                <br />
+                <small>(取得先は現在仮データ)</small>
+              </p>
+            </li>
           </ul>
         </div>
         <div className="mt-4 mb-4">
@@ -37,7 +47,7 @@ const Works = () => {
               <p>
                 音楽配信サービスのWebサイト全体を一から構築しました。
                 <br />
-                <small>(サービス終了のためサイト内容縮小・停止。)</small>
+                <small>(サイト内容縮小・停止中。)</small>
               </p>
             </li>
           </ul>
@@ -54,7 +64,7 @@ const Works = () => {
               >
                 天気の子特集ページ
               </a>
-              <p>画像制作、コーディング、レスポンシブ対応など。</p>
+              <p>コーディング、レスポンシブ対応など。</p>
             </li>
           </ul>
         </div>

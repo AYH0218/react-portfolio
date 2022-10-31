@@ -13,12 +13,12 @@ const Other = () => {
               <p>
                 JavaScript、React、Next.jsに関する知識の強化。
                 <br />
-                TypeScript、Tailwind CSSの理解と習得。
+                TypeScript、Tailwind CSS、Jamstack等の習得。
               </p>
             </li>
             <li>
               UI/UXデザインスキルの補填
-              <p>Figmaの操作理解など。</p>
+              <p>Figmaの操作とプロトタイピングの習得。</p>
             </li>
             <li>
               語学学習
@@ -33,7 +33,7 @@ const Other = () => {
               <p>健康やメンタルに関するライフハック/バイオハック関連の書籍や記事、今後の旅先での写真集など。</p>
             </li>
             <li>
-              旅<p>留学中に知り合ったコロンビアの友人(の豪邸)を訪ね、南米を旅する計画。</p>
+              旅<p>留学中に知り合ったコロンビアの友人(の豪邸)を訪ね、南米を周る計画。</p>
             </li>
           </ul>
         </div>

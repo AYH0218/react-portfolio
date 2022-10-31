@@ -27,11 +27,18 @@ const About = () => {
           <p>
             Photoshop、Illustratorによるデザイン制作。
             <br />
+            Figmaの基本操作。
+            <br />
             Davinch Resolveによる動画編集、カラーグレーディング。
             <br />
             フルサイズミラーレスカメラによる4K動画、写真撮影。
             <br />
             DAW(FL Studio)を使用した楽曲制作。
+          </p>
+          <p>
+            日常会話レベルの英語力。(3ヶ月の語学留学経験あり)
+            <br />
+            日本語による記事、書籍のライティング能力。
           </p>
         </div>
       </div>
