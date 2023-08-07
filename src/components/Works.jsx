@@ -21,7 +21,7 @@ const Works = () => {
               <p>
                 Reactで感染者数取得アプリを作成しました。
                 <br />
-                <small>(取得先は現在仮データ)</small>
+                <small>(取得先更新停止のため現在仮データ)</small>
               </p>
             </li>
           </ul>
@@ -47,7 +47,18 @@ const Works = () => {
               <p>
                 音楽配信サービスのWebサイト全体を一から構築しました。
                 <br />
-                <small>(サイト内容縮小・停止中。)</small>
+                <small>
+                  (サービス終了のためサイト内容縮小・停止。→
+                  <a
+                    href="https://web.archive.org/web/20191102052259/https://www.hmv.co.jp/hmvmusic/"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="text-secondary"
+                  >
+                    キャッシュ
+                  </a>
+                  )
+                </small>
               </p>
             </li>
           </ul>

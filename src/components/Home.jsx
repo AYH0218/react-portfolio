@@ -72,7 +72,18 @@ const Home = () => {
               <p className="text-left">
                 音楽配信サービスのWebサイト全体を構築しました。
                 <br />
-                <small>(サイト内容縮小・停止中。)</small>
+                <small>
+                  (サービス終了のためサイト内容縮小・停止。→
+                  <a
+                    href="https://web.archive.org/web/20191102052259/https://www.hmv.co.jp/hmvmusic/"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="text-secondary"
+                  >
+                    キャッシュ
+                  </a>
+                  )
+                </small>
               </p>
             </div>
           </div>
